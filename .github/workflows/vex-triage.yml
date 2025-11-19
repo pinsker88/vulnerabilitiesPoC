@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Run TuxCare VEX Auto-Triage
-        uses: tuxcare/vex-auto-triage@main
+        uses: anayden/tuxcare-workflow@main
         with:
           ecosystems: 'java,python'
           token: ${{ secrets.VEX_TRIAGE_TOKEN }}
