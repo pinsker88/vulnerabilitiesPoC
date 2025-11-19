@@ -1,0 +1,17 @@
+name: TuxCare VEX Auto-Triage
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Daily at 2 AM
+  workflow_dispatch:      # Manual trigger
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run TuxCare VEX Auto-Triage
+        uses: tuxcare/vex-auto-triage@main
+        with:
+          ecosystems: 'java,python'
+          token: ${{ secrets.VEX_TRIAGE_TOKEN }}
