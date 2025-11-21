@@ -17,7 +17,7 @@
     <properties>
         <!-- Target Java 8 and force Spring Framework 5.2.0.RELEASE -->
         <java.version>1.8</java.version>
-        <spring-framework.version>5.2.0.RELEASE</spring-framework.version>
+        <spring-framework.version>5.2.0.RELEASE-tuxcare.1</spring-framework.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -31,17 +31,17 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>5.2.0.RELEASE</version>
+            <version>5.2.0.RELEASE-tuxcare.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.2.0.RELEASE</version>
+            <version>5.2.0.RELEASE-tuxcare.1</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <version>1.2.17-tuxcare.2</version>
         </dependency>
     </dependencies>
 
