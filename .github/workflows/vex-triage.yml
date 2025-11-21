@@ -19,3 +19,4 @@ jobs:
         with:
           ecosystems: 'java,python'
           token: ${{ secrets.VEX_TRIAGE_TOKEN }}
+          verbosity: 'DEBUG'
