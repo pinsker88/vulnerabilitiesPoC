@@ -2,6 +2,7 @@
 5.2.0.RELEASE - 5.2.0.RELEASE-tuxcare.1
 ## Overview
 
+
 CVE‑2021‑22060 is a follow‑up to CVE‑2021‑22096.  The initial fix in Spring
 Framework 5.2.18 removed some control characters at the beginning of paths but
 did not neutralise backspace and ANSI escape sequences.  Consequently
