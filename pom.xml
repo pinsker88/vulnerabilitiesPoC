@@ -36,7 +36,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.2.0.RELEASE-tuxcare.1</version>
+            <version>6.1.20</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
